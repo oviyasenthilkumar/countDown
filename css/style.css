@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#container{
+    width:90%;
+    margin: auto;
+    height: 100vh;
+    background-image: url(../img/fig2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+   padding-top: 17%;
+   padding-left: 6%;
+    font-size: 2.5rem;
+    color: rgb(206, 138, 36);
+}
+#content{
+    
+    width: 60%;
+    margin-left: 20rem;
+    display: flex;
+    justify-content: space-around;
+   padding-top: 2%;
+}
+#time-hrs, #time-mins, #time-secs, #days{
+    text-align: center;
+    font-size: 5rem;
+}
+#hrs, #min, #sec, #day{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+#countdown-over-text{
+    color: #c0852d;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    display:none;
+}
